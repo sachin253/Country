@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:id="@+id/flag_image"
+        android:layout_width="60dp"
+        android:layout_height="100dp"></ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CountryNameId"
+        android:text="India"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_toRightOf="@+id/flag_image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ReiginTextView"
+        android:text="Region:-"
+        android:layout_below="@+id/CountryNameId"
+        android:layout_toRightOf="@+id/flag_image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ReiginValue"
+        android:text="RegionValue"
+        android:layout_below="@+id/CountryNameId"
+        android:layout_toRightOf="@+id/ReiginTextView"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SubReiginTextView"
+        android:text="SubRegion:-"
+        android:layout_below="@+id/ReiginValue"
+        android:layout_toRightOf="@+id/flag_image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SubReiginValue"
+        android:text="SubRegionValue"
+        android:layout_below="@+id/ReiginValue"
+        android:layout_toRightOf="@+id/SubReiginTextView"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="30dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CapitalTextView"
+        android:text="Capital:-"
+        android:layout_below="@+id/SubReiginValue"
+        android:layout_toRightOf="@+id/flag_image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CapitalValue"
+        android:text="CapitalValue"
+        android:layout_below="@+id/SubReiginValue"
+        android:layout_toRightOf="@+id/CapitalTextView"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PopulationTextView"
+        android:text="Population:-"
+        android:layout_below="@+id/CapitalValue"
+        android:layout_toRightOf="@+id/flag_image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PopulationValue"
+        android:text="PopulationValue"
+        android:layout_below="@+id/CapitalValue"
+        android:layout_toRightOf="@+id/PopulationTextView"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="30dp">
+
+    </TextView>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/BordersTextView"
+    android:text="Borders:-"
+    android:layout_below="@+id/PopulationValue"
+    android:layout_toRightOf="@+id/flag_image"
+    android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp">
+
+
+</TextView>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/BordersValue"
+android:text="BordersValue"
+android:layout_below="@+id/PopulationValue"
+android:layout_toRightOf="@+id/BordersTextView"
+android:layout_marginLeft="2dp"
+    android:layout_marginTop="30dp">
+
+</TextView>
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/LanguagesTextView"
+android:text="Languages:-"
+android:layout_below="@+id/BordersValue"
+android:layout_toRightOf="@+id/flag_image"
+android:layout_marginLeft="20dp"
+    android:layout_marginTop="30dp">
+
+</TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LanguagesValue"
+        android:text="LanguagesValue"
+        android:layout_below="@+id/BordersValue"
+        android:layout_toRightOf="@+id/LanguagesTextView"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="30dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/postImage"
+        android:layout_below="@+id/LanguagesValue"
+        android:layout_marginTop="10dp"></ImageView>
+</RelativeLayout>

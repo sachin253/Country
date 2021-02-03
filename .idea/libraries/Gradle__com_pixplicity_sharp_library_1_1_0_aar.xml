@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pixplicity.sharp:library:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://C:/Gradle/caches/transforms-2/files-2.1/40bd44b2ffa47a793c6bc11956b07c42/jetified-library-1.1.0/jars/classes.jar!/" />
+      <root url="file://C:/Gradle/caches/transforms-2/files-2.1/40bd44b2ffa47a793c6bc11956b07c42/jetified-library-1.1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Gradle/caches/modules-2/files-2.1/com.pixplicity.sharp/library/1.1.0/82eb108197d233795f087461429b3282f8fa6f98/library-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://C:/Gradle/caches/modules-2/files-2.1/com.pixplicity.sharp/library/1.1.0/3cd80a90775da6e3b2b5e31f17ee1b2519e92e1f/library-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
